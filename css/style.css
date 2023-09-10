@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    background-color: #7251b5;
+}
+
+body {
+    font-family: "Nunito";
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* to add to body at the end => color: #fff; */
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 9rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: darkgray;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.black-banner {
+    color: #dec9e9;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header {
+    background-color: black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    background-color: #000;
+}
+
+.team {
+    text-align: center;
+}
