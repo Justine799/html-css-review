@@ -13,86 +13,89 @@
 </head>
 
 <body>
-<header role="banner">
+<header id="header" role="banner">
+  <span id="company-name">Scoopalicious</span>
   <nav class="bg-black" role="navigation">
-    <ul>
-        <a href="#">Scoopalicious</a>
-        <a href="#">Flavours</a>
-        <a href="#">Locations</a>
-        <a href="#">Shop online</a>
+    <ul> 
+      <li><a href="#">Flavours</a></li>
+      <li><a href="#">Locations</a></li>
+      <li><a href="#">Shop online</a></li>
     </ul>
   </nav>
 </header>
   <!-- In this hero section you will use the provided ice-cream-cones.jpg as a background image behind the word Scoopalicious. This would be the only section you will want to give a height. -->
-  <div class="ice-cream">
+<main class="wrapper" role="main">
+    
+  <section id="hero-banner">
     <h1>Scoopalicious</h1>
-  </div>
-  <main class="wrapper" role="main">
-  <section class="intro">
+  </section>
+
+  <section id="intro">
     <h2>Welcome to Scoopalicious!</h2>
       <p>Serving the finest vegan ice cream in town, we specialize in crafting dairy-free delights 
         that will send your taste buds into overdrive. From the moment you step inside our cozy urban 
         shop, you'll know you're in for a treat!</p>
   </section>
-  <section class="black-banner">
+
+  <section id="fan-fav">
     <h2>Top 5 Fan Favourites</h2>
-      <div>
-      <h3>Choco-Obsession</h3>
-        <p>A rich, velvety dark chocolate ice cream made from a blend of organic cocoa and creamy 
+      <ol>
+        <li>
+          <h3>Choco-Obsession</h3>
+          <p>A rich, velvety dark chocolate ice cream made from a blend of organic cocoa and creamy 
           coconut cream.</p>
-      </div>
-      <div>
-      <h3>Very Berry Blast</h3>
-        <p>A harmonious explosion of raspberry, blackberry, and blueberry swirls in a smooth almond base.
-        </p>
-      </div>
-      <div>
-      <h3>Cookie Crumble Craze</h3>
-        <p>Scrummy cookie crumbles meet the creaminess of cashew-based vanilla ice cream.</p>
-      </div>
-      <div>
-      <h3>Peanut Butter Paradise</h3>
-        <p>Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</p>
-      </div>
-      <div>
-      <h3>Mango Tango Sorbet</h3>
-        <p>A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.</p>
-      </div>
-    </section>
+        </li>
+        <li>
+          <h3>Very Berry Blast</h3>
+          <p>A harmonious explosion of raspberry, blackberry, and blueberry swirls in a smooth almond base.</p>
+        </li>
+        <li>
+          <h3>Cookie Crumble Craze</h3>
+          <p>Scrummy cookie crumbles meet the creaminess of cashew-based vanilla ice cream.</p>
+        </li>
+        <li>
+          <h3>Peanut Butter Paradise</h3>
+          <p>Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</p>
+        </li>
+        <li>
+          <h3>Mango Tango Sorbet</h3>
+          <p>A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.</p>
+        </li>
+      </ol>
+  </section>
     
-    
-    <section class="team">
+  <section id="team">
     <h2>Meet Our Team</h2>
-      <p>We're passionate about ice cream, and our dedicated team of flavour wizards works diligently
+      <p class="team-intro">We're passionate about ice cream, and our dedicated team of flavour wizards works diligently
         to create and perfect the most delectable vegan desserts.</p>
   <!-- Display the image: sophia-lee.jpg -->
-  
-  <section class="people">
-    <div>
+
+    <div class="team-grid">
+      <article> 
         <img src="images/sophia-lee.jpg" alt="photograph of Sophia Lee"/>
         <h3>Sophia Lee</h3>
         <p>Founder & Flavour Guru</p>
-    </div>
+      </article>
         <!-- Display the image: henry-chen.jpg -->
-    <div> 
+      <article> 
         <img src="images/henry-chen.jpg" alt="photograph of Henry Chen"/>
         <h3>Henry Chen</h3>
         <p>Master Scooper</p>
-      </div>
+      </article>
   <!-- Display the image: olivia-parks.jpg -->
-    <div>
+      <article>
         <img src="images/olivia-parks.jpg" alt="photograph of Olivia Parks"/>
         <h3>Olivia Parks</h3>
         <p>Vegan Dessert Chef</p>
-      </div>
+      </article>
   <!-- Display the image: elijah-taylor.jpg -->
-    <div>
+      <article>
         <img src="images/elijah-taylor.jpg" alt="photograph of Elijah Taylor"/>
         <h3>Elijah Taylor</h3>
         <p>Flavour Innovator</p>
-      </div>
+      </article>
+    </div>
   </section>
-</section>
 </main>
 <div class="blackbar">
 <footer role="contentinfo">
